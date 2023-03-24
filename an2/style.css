@@ -1,0 +1,36 @@
+body {
+    width: 500px;
+    height: 600px;
+    font-family:var(--font-style) ;
+    background-color: blue;
+
+}
+.content{
+    border-radius: 10%;
+}
+
+ul{
+    
+     margin: 5%;
+     width: 400px; 
+     display: flex;
+     flex-direction: row;
+     list-style: none;
+     padding: 250px 0;
+     border:0.1px solid #0099FFF ,0 6px 20px 0 rgb(0, 0, 0.19)  ;
+     background-color: red;
+     box-shadow: 0 4px 8px 0 #000FFF ;
+     
+}
+li{
+    margin: auto;
+    color: aliceblue;
+    font-size: 20px;
+    cursor: pointer;  
+}
+li::after{
+    display: block;
+}
+li:hover::after{
+    transform:scaleX(1) ;
+}
